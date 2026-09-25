@@ -59,7 +59,7 @@ export default function Home() {
             <div className="flex-1 w-full bg-[var(--surface)] rounded-xl border border-[var(--border-neutral)] overflow-hidden aspect-video relative flex items-center justify-center text-[var(--fg-faint)]">
               {/* Placeholder for Challenge Library Image */}
               <div className="absolute inset-0 bg-gradient-to-tr from-[var(--surface-2)] to-[var(--surface)] opacity-50"></div>
-              <span>[ Library Image Mockup ]</span>
+              <Image src="/library-mockup.jpg" alt="Library Mockup" fill className="object-cover opacity-80" />
             </div>
           </article>
 
@@ -77,7 +77,7 @@ export default function Home() {
             <div className="flex-1 w-full bg-[var(--surface)] rounded-xl border border-[var(--border-neutral)] overflow-hidden aspect-video relative flex items-center justify-center text-[var(--fg-faint)]">
               {/* Placeholder for Editor Image */}
               <div className="absolute inset-0 bg-gradient-to-tr from-[var(--surface-2)] to-[var(--surface)] opacity-50"></div>
-              <span>[ Code Editor Mockup ]</span>
+              <Image src="/editor-mockup.jpg" alt="Code Editor Mockup" fill className="object-cover opacity-80" />
             </div>
           </article>
 
