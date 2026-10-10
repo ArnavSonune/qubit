@@ -10,7 +10,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ["latin"], variable: "--font-space
 const orbitron = Orbitron({ subsets: ["latin"], variable: "--font-orbitron" });
 
 export const metadata: Metadata = {
-  title: "Qubit Forge | Infrastructure for Quantum Talent",
+  title: "Qubit | Infrastructure for Quantum Talent",
   description: "Forge quantum skill into proof. Write real circuits, get them executed, and earn a ranked, verifiable place among the engineers the industry needs.",
 };
 
@@ -108,12 +108,12 @@ export default function RootLayout({
               </div>
 <<<<<<< HEAD
               <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-[#FF8C00]/15 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                <p className="text-[0.7rem] uppercase tracking-[0.18em] text-[#b8aea1]">© 2026 Qubit Forge Pty Ltd</p>
-                <a href="mailto:hello@qubitforge.com.au" className="text-[0.7rem] uppercase tracking-[0.18em] text-[#b8aea1] hover:text-[#ffe7b0] transition-colors">hello@qubitforge.com.au</a>
+                <p className="text-[0.7rem] uppercase tracking-[0.18em] text-[#b8aea1]">© 2026 Qubit Pty Ltd</p>
+                <a href="mailto:hello@qubit.com.au" className="text-[0.7rem] uppercase tracking-[0.18em] text-[#b8aea1] hover:text-[#ffe7b0] transition-colors">hello@qubit.com.au</a>
 =======
               <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-[var(--border)] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-                <p className="text-[0.7rem] uppercase tracking-[0.18em] text-[var(--fg-faint)]">© 2026 Qubit Forge Pty Ltd</p>
-                <a href="mailto:hello@qubitforge.com.au" className="text-[0.7rem] uppercase tracking-[0.18em] text-[var(--fg-faint)] hover:text-[var(--accent)] transition-colors">hello@qubitforge.com.au</a>
+                <p className="text-[0.7rem] uppercase tracking-[0.18em] text-[var(--fg-faint)]">© 2026 Qubit Pty Ltd</p>
+                <a href="mailto:hello@qubit.com.au" className="text-[0.7rem] uppercase tracking-[0.18em] text-[var(--fg-faint)] hover:text-[var(--accent)] transition-colors">hello@qubit.com.au</a>
 >>>>>>> d714f2e (Initial commit)
               </div>
             </div>
